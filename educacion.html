@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width:width-device,user-scalable=no">
+    <meta name="description" content="Sección educación Victor Monserratte prueba Fundamentos HTML NextU">
+    <meta name="author" content="Victor Monserratte">
+    <title>Educación | Hoja de vida Victor Monserratte</title>
+  </head>
+  <body>
+  <svg>
+      <image xlink:href="img/logo.svg" width="350px" height="150px" x="-100px" y="0px"></image>
+  </svg>
+  <h1>Hoja de Vida</h1>
+  <h2>Datos Personales</h2>
+  <ul>
+    <li>Nombres:<strong>Victor Daniel.</strong></li>
+    <li>Apellidos:<strong>Monserratte López.</strong></li>
+    <li>Fecha de nacimiento:<strong>29/11/1980</strong></li>
+    <li>Lugar de nacimiento:<strong>Cúcuta - Colombia.</strong></li>
+  </ul>
+  <h2>Menú de navegación</h2>
+  <navbar>
+<a href="index.html">Inicio</a>
+|
+<a href="educacion.html">Educación</a>
+|
+<a href="experiencia.html">Experiencia</a>
+  </navbar>
+<h2>Educación</h2>
+<table border="1" cellpadding="0" cellspacing="0">
+  <tr align="center">
+    <th>Año</th>
+    <th>Institución</th>
+    <th>Lugar</th>
+    <th>¿Culminó?</th>
+  </tr>
+    <tr align="center">
+      <td>1998</td>
+      <td>Colegio San Vicente de Paúl</td>
+      <td>Venezuela</td>
+      <td>Si</td>
+    </tr>
+    <tr align="center">
+      <td>2001</td>
+      <td>Instituto Universitario de Mercadotecnia</td>
+      <td>Venezuela</td>
+      <td>Si</td>
+    </tr>
+    <tr align="center">
+      <td>2017</td>
+      <td>Next University</td>
+      <td>Colombia</td>
+      <td>En proceso</td>
+    </tr>
+</table>
+<h2>Agregar Estudios</h2>
+<form autocomplete="on" name="Formulario educación">
+  <label for="Año"><strong>Año:</strong></label>
+    <select name="Año">
+      <option value="1">2017</option>
+      <option value="1">2016</option>
+      <option value="1">2015</option>
+      <option value="1">2014</option>
+      <option value="1">2013</option>
+      <option value="1">2012</option>
+      <option value="1">2011</option>
+      <option value="1">2010</option>
+    </select><br/><br/>
+  <label for="Institución"><strong>Educación:</strong></label>
+    <input type="text" name="Institución" placeholder="Ej: Next University" required><br/><br/>
+  <label for="Lugar"><strong>Lugar:</strong></label><br/>
+    <textarea name="Lugar" rows="8" cols="80" required placeholder="Escriba aquí el lugar de estudios"></textarea><br/><br/>
+  <label for="¿Culminó?"><strong>¿Culminó?</strong></label>
+      <input type="radio" name="¿Culminó?">Si
+      <input type="radio" name="¿Culminó?">No<br/><br/>
+      <input type="submit" name="" value="Enviar"><br/><br/>
+</form>
+<footer>
+  <p><strong>Correo electrónico:</strong> vmonserratte@gmail.com | <strong>Teléfono:</strong> 310-1234567 | <strong>Instagram:</strong> <a href="http:www.instagram.com/vidamolo" target="_blank">@vidamolo</a> | <strong>Dirección:</strong> Calle 1 #1-23</p>
+  </footer>
+  </body>
+</html>
